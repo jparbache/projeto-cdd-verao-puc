@@ -1,6 +1,8 @@
 #Carregando os dados crus de transicao
 library(readxl)
-LULC_transitions <- read_excel("C:/Users/JoaoArbache/Desktop/verao/CienciadeDados/projeto-cdd-verao-puc/input/LULC-transitions.xlsx")
+library(readr)
+
+LULC_transitions <- read_csv("C:/Users/JoaoArbache/Desktop/verao/CienciadeDados/projeto-cdd-verao-puc/input/LULC-transitions-c.csv")
 
 #Carregando dados da legenda das classes
 library(readr)

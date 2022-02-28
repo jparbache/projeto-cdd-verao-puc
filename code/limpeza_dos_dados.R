@@ -52,5 +52,6 @@ LULC_ACF= LULC_ACF %>%
 
 #Salvando o dataframe limpo  e pronto para a analise
 write.csv(LULC_ACF, "C:/Users/JoaoArbache/Desktop/verao/CienciadeDados/projeto-cdd-verao-puc/output/LULC_ACF.csv", row.names = FALSE)
+write.csv(LULC_Clean, "C:/Users/JoaoArbache/Desktop/verao/CienciadeDados/projeto-cdd-verao-puc/output/LULC_CLEAN.csv", row.names = FALSE)
 
 
